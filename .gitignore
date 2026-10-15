@@ -1,0 +1,80 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets/
+*secret*
+*credentials*
+
+# Docker files (do not commit)
+Dockerfile
+Dockerfile.*
+dockerfile
+docker-compose*.yml
+docker-compose*.yaml
+compose.yml
+compose.yaml
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and logs
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+secrets/
+*secret*
+*credentials*
+
+# Docker files (do not commit)
+Dockerfile
+Dockerfile.*
+dockerfile
+docker-compose*.yml
+docker-compose*.yaml
+compose.yml
+compose.yaml
+
+# Python virtual environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local databases and logs
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
